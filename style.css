@@ -1,0 +1,139 @@
+/* GLOBAL STYLES */
+body.site-body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* HEADER */
+.site-header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0;
+  letter-spacing: 2px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color: #444;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffb400;
+  border-bottom: 2px solid #ffb400;
+}
+
+/* SECTIONS */
+.section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* HEADINGS */
+h2 {
+  color: #222;
+  border-left: 4px solid #ffb400;
+  padding-left: 10px;
+}
+
+/* LISTS */
+.hobby-list, .project-list {
+  padding-left: 20px;
+}
+
+.project-list a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.project-list a:hover {
+  text-decoration: underline;
+}
+
+/* TABLE */
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resume-table th {
+  background-color: #ffb400;
+  color: white;
+  padding: 10px;
+}
+
+.resume-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* CONTACT FORM */
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-submit {
+  background-color: #ffb400;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #e09c00;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 600px) {
+  .nav-item {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .section {
+    padding: 20px 10px;
+  }
+}
