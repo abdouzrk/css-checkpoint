@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="site-body">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <h1 class="site-title">My Portfolio</h1>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+      <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="section home-section">
+    <h2>Welcome</h2>
+    <p>Hello! I’m <strong>Abderrahmen Zarrouk</strong>, a beginner web developer learning how to build cool websites.</p>
+    <p>Here’s a short introduction video:</p>
+    <video width="400" controls class="intro-video">
+      <source src="video/intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+    <p>My name is <strong>Abderrahmen Zarrouk</strong>. I’m learning HTML and web development. I enjoy making simple websites and improving step by step.</p>
+    <h3>My Hobbies</h3>
+    <ul class="hobby-list">
+      <li>Learning to code</li>
+      <li>Training Wrestling</li>
+      <li>Playing video games</li>
+    </ul>
+    <p>Here’s a song I like to listen to while coding:</p>
+    <audio controls class="audio-player">
+      <source src="audio/song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- WORK SECTION -->
+  <section id="work" class="section work-section">
+    <h2>My Work</h2>
+    <p>These are some of the small projects I’ve made so far:</p>
+    <ul class="project-list">
+      <li><a href="project1.html">My First HTML Page</a></li>
+      <li><a href="project2.html">Simple To-Do List</a></li>
+      <li><a href="project3.html">Favorite Movies List</a></li>
+    </ul>
+  </section>
+
+  <!-- RESUME SECTION -->
+  <section id="resume" class="section resume-section">
+    <h2>My Resume</h2>
+    <p>Here is a simple table showing my learning progress:</p>
+    <table class="resume-table" border="1">
+      <tr>
+        <th>Year</th>
+        <th>Skill Learned</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td>HTML Basics</td>
+        <td>Learned how to use headings, paragraphs, and links.</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td>CSS & JavaScript</td>
+        <td>Still learning how to make things look better and add interactivity.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <p>If you want to get in touch, please fill out the form below:</p>
+    <form action="#" method="post" class="contact-form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here..." required></textarea><br><br>
+
+      <input type="submit" value="Send" class="btn-submit">
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; 2025 My Portfolio | Made by Abderrahmen Zarrouk</p>
+  </footer>
+
+</body>
+</html>
